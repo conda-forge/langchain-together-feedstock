@@ -1,5 +1,5 @@
 {% set name = "langchain-together" %}
-{% set version = "0.1.5" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/langchain_together-{{ version }}.tar.gz
-  sha256: 049aae10eece64b83fa4bd6047571c3524efaa7f53a73968857c89748792ae59
+  sha256: 39656451179e9c10dffa3a84642855d3ca23f7c01848953765adc30b08d276cc
 
 build:
   noarch: python
@@ -21,8 +21,8 @@ requirements:
     - pip
   run:
     - python >=3.8.1,<4.0
-    - langchain-core >=0.2.26,<0.3.0
-    - langchain-openai >=0.1.16,<0.2.0
+    - langchain-core >=0.3.0,<0.4.0
+    - langchain-openai >=0.2.0,<0.3.0
     - requests >=2.0.0,<3.0.0
     - aiohttp >=3.9.1,<4.0.0
 

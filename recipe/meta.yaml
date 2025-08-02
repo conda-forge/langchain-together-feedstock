@@ -1,5 +1,5 @@
 {% set name = "langchain-together" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_together-{{ version }}.tar.gz
-  sha256: c8a96377e49c065526435f766c6e1c7da3f7d054361326f079de8bd368ea76f2
+  sha256: 123a3d6da11c3a32c6e7653f9b52a7793789ddba5a871a2392db0ee3d389be78
 
 build:
   noarch: python
